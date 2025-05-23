@@ -61,7 +61,7 @@ export default function BorrowNow() {
       });
 
       toast({
-        title: '📚 Borrowed Successfully',
+        title: 'Borrowed Successfully',
         description: `${name}, you have borrowed "${book.title}".`,
       });
     }

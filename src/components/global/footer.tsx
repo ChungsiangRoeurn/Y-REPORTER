@@ -40,7 +40,7 @@ export default function Footer() {
 
                 {/* Links */}
                 <div className="flex flex-col items-center sm:items-center gap-4">
-                    <h4 className="text-base font-semibold text-white">Let's see</h4>
+                    <h4 className="text-base font-semibold text-white">Let&apos;s see</h4>
                     <div className="flex flex-col gap-2 items-center">
                         {navLinks.map(({ label, href, icon: Icon }) => (
                             <motion.a

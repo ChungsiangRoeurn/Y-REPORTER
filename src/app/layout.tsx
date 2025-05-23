@@ -28,12 +28,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex flex-col min-h-screen">
           <Navbar />
-          <main className="flex-1">{children} <Toaster /></main>
+          <main className="flex-1">{children}<Toaster /></main>
           <Footer />
         </div>
       </body>

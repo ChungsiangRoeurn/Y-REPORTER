@@ -22,11 +22,8 @@ import { BookOpen, EllipsisVertical, Printer, Trash2 } from 'lucide-react';
 import Link from 'next/link';
 import { useState } from 'react';
 
-type InvoiceProps = {
-  item: BorrowedItem;
-};
 
-export default function ExportReportPage({ item }: InvoiceProps) {
+export default function ExportReportPage() {
   const { items, clearItems, removeItem } = useBorrowedReportStore();
   const [openInvoiceItem, setOpenInvoiceItem] = useState<BorrowedItem | null>(null);
 

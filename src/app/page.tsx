@@ -22,7 +22,7 @@ export default function HomePage() {
           </h1>
         </div>
         <p className="text-muted-foreground mt-4 text-lg max-w-2xl mx-auto">
-          A beautiful system to manage your library’s books, borrowers, and borrowing records—all at your fingertips.
+          A beautiful system to manage your library&apos;s books, borrowers, and borrowing records—all at your fingertips.
         </p>
       </section>
 
